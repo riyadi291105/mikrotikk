@@ -1,0 +1,296 @@
+
+body {
+padding:0;margin:0 auto;
+    background:#778899;
+    position:relative;
+    top: -35px;
+
+}
+ 
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+  #section2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    padding-left: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    margin-right: 40px;
+    max-width: 200px; /* Adjust the size as needed */
+    max-height: 200px; /* Adjust the size as needed */
+  }
+
+
+#section3 {
+      text-align: center;
+    }
+
+    #section3 h2 {
+      color: #333;
+    }
+
+    #section3 img {
+      width: 50px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+      height: auto;
+      margin: 10px; /* Jarak antara gambar */
+      display: inline-block; /* Menyusun gambar secara horizontal */
+    }
+
+#box {
+  animation: slideInFromLeft 2s ease;
+}
+
+#user {
+  animation: slideInFromRight 3s ease;
+}
+
+#pass {
+  animation: slideInFromRight 3s ease;
+}
+
+#boton {
+  animation: slideInFromBottom 3s ease;
+}
+
+h1 {
+  animation: slideInFromRight 4s ease;
+}
+
+
+#head{
+    display: block;
+    background: #1976D2
+;
+    width: 100%;
+    height: 0px;
+    position:relative;
+    top:-37px;
+    z-index: 1;
+}
+#logo{
+position: relative;
+    top:0px;
+}
+
+h3 {
+  margin-left: 85px;
+  font-family: Arial;
+}
+
+h4{
+  margin-left: 166px;
+  font-family: Arial;
+}
+
+legend{
+    position:relative;
+    top:0px;
+    color:#a9a9a9;
+    font-size: 20px;
+    font-family:sans-serif;
+    
+}
+#box{
+    position:relative;
+    top:100px;
+	width:250px;
+	height:280px;	
+	background-color:none;
+	border-radius:50px;
+	margin:0px auto;
+    z-index: 2;
+
+        background-color: rgba(255, 255, 255, 0.3); /* Warna putih dengan tingkat kejernihan (alpha) 0.7 */
+        padding: 20px; /* Menambahkan padding agar konten di dalamnya terlihat */
+
+
+}
+
+#user::placeholder {
+    color: rgb(255, 255, 255); /* Ganti dengan warna yang Anda inginkan */
+  }
+
+  #pass::placeholder {
+    color: rgb(255, 255, 255); /* Ganti dengan warna yang Anda inginkan */
+  }
+
+#userdiv
+{
+    background:url(logoq.png) no-repeat center, 
+    linear-gradient( #fdc006,#fd8016);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+    position: relative;
+    top:-70px;
+    box-shadow: 0px 8px 15px #6530E4;
+}
+
+
+/**------------USER------------**/
+#user{
+border:0px #ccc solid;
+    color:#fff;background:#6530E4;opacity: 1;
+height:30px;font-size:16px;
+display:block;width:200px;
+text-align:center;border-radius:5px;
+font-family:inherit;outline: none;
+    position: relative;top:-40px;
+}
+/**--------------------PASSWORD----------**/
+#pass{
+    border:0px #ccc solid;
+    color:#fff;background:#6530E4;opacity: 1;height:30px;font-size:16px;
+display:block;margin:5px;width:200px;text-align:center;border-radius:5px;font-family:inherit;outline: none;
+    position: relative;top:-30px;
+}
+/*---------------Boton---------*/
+#boton{
+    position: relative;top: -20px;
+	-webkit-appearance:none;color:#fff;
+	background:#6530E4; background-image:url(ic_arrow_forward_white_24dp_2x.png);
+	background-repeat: no-repeat; background-position:center; opacity: 1;
+    border:none;border-radius:50%;height:100px;width:100px;font-size:16px;font-weight:400;outline:0;text-transform:uppercase;
+    letter-spacing:1.5px;cursor:pointer;
+    }
+#boton:hover {
+    background-color: #FFF584;
+    background-image: url(hvr.png); /* Ganti dengan path gambar baru */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+    .vertical-form .footer{
+        position: relative;
+        top:100px;
+        text-align:center;
+color:#FFF584;}
+.vertical-form .footer a{text-decoration:none;color:#fff;}
+    @media (max-width:450px){
+
+       }
+
+section.contact-me {
+    border-bottom: none;
+}
+}
+#contact input {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#contact input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#contact textarea {
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 180px;
+    max-height: 220px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#contact textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+@media screen and (max-width: 1680px) {
+    .menu {
+        left: 5%;
+    }
+
+    .section {
+        color: #fff;
+        width: 65%;
+        right: 5%;
+        left: 30%;
+    }
+}
